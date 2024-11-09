@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cherry"
+version = "0.1.0"
+description = ""
+authors = ["Erfan Arefmehr <erfan.arefmehr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cherrypy = "^18.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
